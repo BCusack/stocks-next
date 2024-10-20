@@ -2,17 +2,14 @@
   "name": "stocksdigital-next",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/navbar": "^2.0.37",
     "babel-plugin-react-compiler": "^19.0.0-beta-9ee70a1-20241017",
     "next": "15.0.0-rc.1",
     "react": "19.0.0-rc-cd22717c-20241013",
