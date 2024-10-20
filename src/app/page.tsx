@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 
+export const runtime = "edge";
 
 export default function Home() {
 
