@@ -7,7 +7,7 @@ export const runtime = "edge";
 export default function Home() {
 
   return (
-    <div className="min-h-screen bg-background text-gray-100">
+    <div className="min-h-screen bg-background dark text-gray-100">
       <header className="fixed w-full z-10 bg-background border-b border-gray-700">
         <div className="container mx-auto px-4 py-4">
           <Navbar />
@@ -90,7 +90,7 @@ export default function Home() {
           id="esg"
           className="py-20 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=400&width=800')",
+            backgroundImage: "url('/placeholder.svg?height=200&width=400')",
           }}
         >
           <div className="container mx-auto px-4">
